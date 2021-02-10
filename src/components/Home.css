@@ -1,0 +1,109 @@
+.home {
+  padding-top: 65px;
+}
+
+.carousel-item {
+  min-height: 92.5vh;
+}
+
+.home__title {
+  position: relative;
+  background-color: red;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 20vh;
+  left: 10vh;
+  right: 55vw;
+  color: white;
+  background-color: rgba(00, 00, 00, 0.5);
+}
+
+.home__about {
+  height: 100vh;
+  background-color: salmon;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+}
+
+.about__row {
+  margin-top: 50px;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.about__row::-webkit-scrollbar {
+  display: none;
+}
+
+.card__img {
+  object-fit: contain;
+  max-height: 350px;
+  max-width: 25vw;
+  transition: transform 450ms;
+  padding: 20px;
+}
+
+.card__img:hover {
+  transform: scale(1.08);
+}
+
+.card__text {
+  text-align: center;
+}
+
+div.home__about p {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.competition__row {
+  margin-top: 50px;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.competition__row::-webkit-scrollbar {
+  display: none;
+}
+
+.home__competition {
+  height: 100vh;
+  background-color: springgreen;
+}
+
+div.home__competition p {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.team__row {
+  margin-top: 50px;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.team__row::-webkit-scrollbar {
+  display: none;
+}
+
+.home__team {
+  height: 100vh;
+  background-color: aqua;
+}
+
+div.home__team p {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 32px;
+}
