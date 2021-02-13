@@ -1,0 +1,54 @@
+.Contact {
+  padding-top: 65px;
+}
+#col1{
+  float:left;
+  padding-top:65px;
+  height: 400px; 
+  background-color: orange;
+}
+#col2 {
+  float:right;
+  padding-top:65px;
+  height: 400px; 
+  background-color: black;
+}
+
+.card__img {
+  object-fit: 'contain';
+  align-content: left;
+  max-height: 80%;
+  max-width: 80%;
+  padding: 20px;
+  margin:auto;
+  display:block;
+} 
+.card1{
+  object-fit: 'contain';
+  max-height: 40%;
+  width: 60%;
+  padding-bottom:20px;
+  background-color: orange;
+}
+.card2{
+  object-fit: 'contain';
+  max-height: 40%;
+  width: 60%;
+  padding-top:20px;
+  background-color: orange;
+}
+.row{
+  padding-top:65px;
+  height: auto; 
+  background-color: yellow;
+}
+
+.card3 {
+  object-fit: 'contain';
+  max-height: 10%;
+  max-width: 10%;
+  padding: 20px;
+  margin: auto;
+  display:block;
+} 
+
